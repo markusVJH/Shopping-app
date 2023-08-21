@@ -1,14 +1,27 @@
-import {
+/* import {
   RouterProvider,
-} from "react-router-dom";
+} from "react-router-dom"; */
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import './App.css';
-import router from "./router/router";
 import Nav from "./Nav";
-
-
+import router from "./router/router";
 function App() {
   return (
-    <RouterProvider router={router} />
+    <div>
+      <Router>
+        <Nav />
+        <Routes>
+          {router.routes.map((route, index) => (
+            <Route
+              key={index}
+              path={route.path}
+              element={route.element}
+            />
+          ))}
+        </Routes>
+      </Router>
+    </div>
   );
 }
 
