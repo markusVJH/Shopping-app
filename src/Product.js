@@ -16,10 +16,10 @@ const toggleDescription = () => {
     <Card.Img variant="top" src={image} alt={title} className="productImage p-3" />
     <Card.Body className="d-flex flex-column">
       <Card.Title>{title}</Card.Title>
+      <Card.Text>{price} €</Card.Text>
       {showDescription ? (
           <Card.Text className="flex-grow-1">{description}</Card.Text>
         ) : null}
-      <Card.Text>{price} €</Card.Text>
       <div className="mt-auto">
         <Button variant="link" onClick={toggleDescription}>
           {showDescription ? 'See Less' : 'See More'}
