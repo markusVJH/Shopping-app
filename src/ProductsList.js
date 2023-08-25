@@ -1,4 +1,3 @@
-import './Product.css'
 import axios from "axios";
 import Product from "./Product";
 import 'bootstrap/dist/css/bootstrap.min.css';

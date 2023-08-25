@@ -1,9 +1,5 @@
-/* import {
-  RouterProvider,
-} from "react-router-dom"; */
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import './App.css';
 import Nav from "./Nav";
 import router from "./router/router";
 function App() {
