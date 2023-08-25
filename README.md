@@ -1,6 +1,6 @@
 # Shopping app
 
-Small shopping app skeleton using fakestore.api. The challenge was to use a decent looking skeleton only using bootstrap for styling, and no css.
+Small shopping app skeleton utilizing fakestore.api. The challenge was to create a decent looking skeleton for a shopping app only using bootstrap for styling, and no css.
 
 ## Technologies used
 
