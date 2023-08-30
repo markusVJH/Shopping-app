@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
 const Product = (props) => {
-  const {id, title, category, price, image, rating, description} = props;
+  const {title, price, image, description} = props;
   const [showDescription, setShowDescription] = useState(false);
 
 const toggleDescription = () => {
@@ -11,13 +11,13 @@ const toggleDescription = () => {
 };
 
   return (
-    <Card className="productCard d-flex flex-column h-100">
+    <Card className="productCard d-flex flex-column h-100 col-md-200">
     <Card.Img variant="top" src={image} alt={title} className="productImage p-3" />
     <Card.Body className="d-flex flex-column">
       <Card.Title>{title}</Card.Title>
       <Card.Text>{price} €</Card.Text>
       {showDescription ? (
-          <Card.Text className="flex-grow-1">{description}</Card.Text>
+          <Card.Text>{description}</Card.Text>
         ) : null}
       <div className="mt-auto">
         <Button variant="link" onClick={toggleDescription}>
