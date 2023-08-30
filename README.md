@@ -1,6 +1,8 @@
 # Shopping app
 
-Small shopping app skeleton utilizing fakestore.api. I wanted to challenge myself to try to make the application look decent with no css at all, but only Bootstrap. Not easy, some css is needed!
+Small shopping app skeleton utilizing fakestore.api. As a challenge, I tried to only use Bootstrap for styling, no css.
+
+Logo created with [Looka.com](https://looka.com/)
 
 ## Technologies used
 
