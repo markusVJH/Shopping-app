@@ -17,3 +17,7 @@ Built with:
 
 - Clone the repo
 - In the terminal run 'npm install' and 'npm start'
+
+## Screenshot
+
+![Screenshot](/src/shopping.png)
